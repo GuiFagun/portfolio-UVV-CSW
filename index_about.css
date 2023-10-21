@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    right: 0;
+    top: -20;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+body{
+    background: linear-gradient(245.59deg, #3c68a4 0%, #224779 28.53%, #0b2447 75.52%);
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fafafa;
+}
+
+.menu_items{
+    display: flex;
+}
+.menu_items a{
+    color: #fafafa;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    white-space: nowrap;
+}
+.menu_items a:hover{
+    color: #ffd411;
+}
+
+#barrinhas{
+    color: #fafafa;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.about{
+    right: 0;
+    top: -20;
+    width: 100%;
+    padding: 33px 9%;
+}
+
+.about h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 45px;
+    line-height: 1;
+    color: #fafafa;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about p{
+    color: #fafafa;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#eu{
+    border-radius: 180px;
+    border: 5px solid #fafafa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gostos img{
+    border-radius: 10px;
+    border: 1px solid #fafafa;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about hr{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}

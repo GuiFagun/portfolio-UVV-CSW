@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: -20;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
+}
+
+body{
+    background: linear-gradient(245.59deg, #3c68a4 0%, #224779 28.53%, #0b2447 75.52%);
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fafafa;
+}
+
+.menu_items{
+    display: flex;
+}
+.menu_items a{
+    color: #fafafa;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+    white-space: nowrap;
+}
+.menu_items a:hover{
+    color: #ffd411;
+}
+
+#barrinhas{
+    color: #fafafa;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 15%
+}
+
+.resumo h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+.resumo h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    line-height: 1;
+    color: #fafafa;
+    margin: 0 0 15px;
+}
+.resumo h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fafafa;
+    margin-bottom: 30px;
+}
+.resumo p{
+    color: #fafafa;
+    font-size: 11px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.main_img img{
+    width: 700px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.resumo a{
+    display: inline-block;
+    color: #fafafa;
+    background: #3c68a4;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all ease;
+    margin-top: 10px;
+    position: sticky;
+}
+
+.resumo a:hover{
+    transform: translateX(5px);
+}
+
+.resumo a.intro_vid{
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #fafafa;
+}
+
+.resumo a.intro_vid i{
+    margin-right: 5px;
+    font-size: 16px;
+}
+
